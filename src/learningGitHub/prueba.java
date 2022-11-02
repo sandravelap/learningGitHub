@@ -7,7 +7,7 @@ public class prueba {
 	}
 
 	static Integer potenciaDos(Integer num) {
-		Integer result;
+		Integer result;  // Hay que inicializar siempre las variables.
 		if (num!=2) {
 		result = (int) Math.pow(num, 2);
 		}else {
